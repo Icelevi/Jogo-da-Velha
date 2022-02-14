@@ -78,6 +78,10 @@ const player = {
         alert(`O jogador 1 foi o campeão`)
       }, 10);
     }
+  },
+  resetPoints(){
+    script.elements.player1points.innerText = 0;
+    script.elements.player0points.innerText = 0;
   }
 }
 

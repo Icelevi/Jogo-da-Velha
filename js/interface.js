@@ -29,4 +29,7 @@ elements.gameInteractiveBlocks.forEach(block => {
 elements.btnResetTheGame.addEventListener("click", ()=>{
     game.player.resetTheGame()
 })
+elements.btnResetPoints.addEventListener("click", ()=>{
+    game.player.resetPoints()
+})
 export { elements };
