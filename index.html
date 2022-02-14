@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <main>
+    <div class="scoreboard">
+        <div class="player-points-container">
+            <h1>Player 1</h1>
+            <h1 id="player-0-points">0</h1>
+        </div>
+        <div class="player-points-container">
+            <h1>Player 2</h1>
+            <h1 id="player-1-points">0</h1>
+        </div>
+        <button id="btnResetPoints"> 
+            Reset points
+        </button>
+    </div>
+ 
+    <div class="game-container">
+        <div id="0" class="interactive-block" data-block></div>
+        <div id="1" class="interactive-block" data-block></div>
+        <div id="2" class="interactive-block" data-block></div>
+        <div id="3" class="interactive-block" data-block></div>
+        <div id="4" class="interactive-block" data-block></div>
+        <div id="5" class="interactive-block" data-block></div>
+        <div id="6" class="interactive-block" data-block></div>
+        <div id="7" class="interactive-block" data-block></div>
+        <div id="8" class="interactive-block" data-block></div>
+    </div>
+    <button id="btnResetTheGame"> 
+        Reset the board
+    </button>
+
+</main>
+    <script type="module" src="./js/interface.js"></script>
+    <script type="module" src="./js/game.js"></script>
+
+</body>
+
+</html>
